@@ -12,3 +12,12 @@ export const API_Options = {
   },
 };
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w300/";
+export const BG_URL =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-409f-b7c8-6ac1718946d6/42ab337a-06ca-44a1-abed-09b8c333d974/NL-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "Sanskrit", name: "Sanskrit" },
+  { identifier: "spanish", name: "Spanish" },
+];
