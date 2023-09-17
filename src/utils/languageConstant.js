@@ -8,7 +8,7 @@ const lang = {
     gptSearchPlaceholder: "आज आप कौन सी फिल्म देखना चाहेंगे?",
   },
   Sanskrit: {
-    search: "Sanskrit",
+    search: "संस्कृत",
     gptSearchPlaceholder: "अद्य भवन्तः किं चलच्चित्रं द्रष्टुम् इच्छन्ति ?",
   },
   spanish: {
