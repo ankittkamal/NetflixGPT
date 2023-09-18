@@ -5,7 +5,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { addUser, removeUser } from "../utils/userSlice";
 import { LOGO, SUPPORTED_LANGUAGES } from "../utils/constants";
-import { toggleGptSearchView } from "../utils/GptSlice";
+import {
+  clearGptMovieName,
+  clearGptMovieResult,
+  toggleGptSearchView,
+} from "../utils/GptSlice";
 import { changeLang } from "../utils/configSlice";
 
 const Header = () => {
@@ -13,9 +17,12 @@ const Header = () => {
   const navigate = useNavigate();
   const user = useSelector((store) => store.user);
   const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
+
   const handleGPTsearch = () => {
     // toggle gpt search
     dispatch(toggleGptSearchView());
+    dispatch(clearGptMovieResult());
+    dispatch(clearGptMovieName());
   };
   const handleLangChange = (e) => {
     dispatch(changeLang(e.target.value));

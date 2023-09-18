@@ -21,7 +21,7 @@ Example:
 To run the server execute
 
 ```
-npm run dev
+npm start
 ```
 
 ## Project Idea Overview
