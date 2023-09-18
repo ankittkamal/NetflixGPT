@@ -1,4 +1,4 @@
-#### NetflixGPT
+# NetflixGPT
 
 ### Setup the project
 
@@ -9,7 +9,8 @@ npm install
 ```
 
 In the root directory create a `.env `file and add the TMDB and OPENAI KEY into it.
-ex:
+
+Example:
 
 ```
     REACT_APP_OPENAI_KEY=sk-asdKIaR234w6sdf6qs3sdffdfsasd234wdfEaafq3re234casd
@@ -22,6 +23,28 @@ To run the server execute
 ```
 npm run dev
 ```
+
+## Project Idea Overview
+
+- Login/Sign Up
+
+  - Sign In /Sign up Form
+  - redirect to Browse Page
+
+- Browse Page (after authentication)
+
+  - Header
+  - Main Movie
+    - Tailer in Background
+    - Title & Description
+    - MovieSuggestions
+      - MovieLists \* N
+
+- NetflixGPT
+  - Search Bar
+  - Movie Suggestions
+
+## NetflixGPT Project Features and todos
 
 - Create React App.
 - Configured TailwindCSS.
@@ -69,23 +92,4 @@ npm run dev
 - Memoization
 - Added .env file
 - Adding .env file to gitignore
-
-# Features
-
-- Login/Sign Up
-
-  - Sign In /Sign up Form
-  - redirect to Browse Page
-
-- Browse Page (after authentication)
-
-  - Header
-  - Main Movie
-    - Tailer in Background
-    - Title & Description
-    - MovieSuggestions
-      - MovieLists \* N
-
-- NetflixGPT
-  - Search Bar
-  - Movie Suggestions
+- Made our Site Responsive.
