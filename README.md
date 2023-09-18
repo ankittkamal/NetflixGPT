@@ -29,7 +29,7 @@ Netflix Clone Project with integrating OpenAI GPT search functionality for uniqu
 
 - Browse Page with TMDB Movie Result Section
 
-  ![](screenshot/BrowsePageMoviesSection.png)
+  ![](screenshot/BrowsePageResult.png)
 
 - GPT Search Page with Multi-language Feature in Search.
 
