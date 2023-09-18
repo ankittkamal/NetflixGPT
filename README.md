@@ -1,35 +1,74 @@
 # NetflixGPT
 
-### Setup the project
+Netflix Clone Project with integrating OpenAI GPT search functionality for unique movie Recommendations.
 
-Go inside the folder path and execute the following command:
+---
 
-```
-npm install
-```
+## Technologies Used
 
-In the root directory create a `.env `file and add the TMDB and OPENAI KEY into it.
+- Front-end:
+  `React`
+  `Redux`
+  `Tailwind CSS`
+  `JavaScript`
+  `React Router`
+- User Authentication: `Firebase`
+- API used : `The Movie Database[TMDB]` `OpenAI platform GPT API`
+
+---
+
+## Screenshot
+
+- Sign Up / Sign In Page.
+
+  ![](screenshot/SignInPage.png)
+
+- Browse Page with GPT Search button, sign out functionality, video trailer streaming on background and movies section.
+
+  ![](screenshot/BrowsePage.png)
+
+- Browse Page with TMDB Movie Result Section
+
+  ![](screenshot/BrowsePageMoviesSection.png)
+
+- GPT Search Page with Multi-language Feature in Search.
+
+  ![](screenshot/GPTsearchPage.png)
+
+- Movie Result from GPT search functionality.
+
+  ![](screenshot/GPTsearchMovieResults.png)
+
+---
+
+## Setup the project
+
+1. Fork the project
+2. Clone project using `git clone https://github.com/<YOUR-USERNAME>/NetflixGPT.git`
+3. Install dependencies `npm install`
+4. In the root directory create a `.env` file and add the TMDB API KEY and OPENAI API KEY into it.
 
 Example:
 
 ```
-    REACT_APP_OPENAI_KEY=sk-asdKIaR234w6sdf6qs3sdffdfsasd234wdfEaafq3re234casd
+REACT_APP_OPENAI_KEY=sk-aasdadfsdfasdas234c
 
-    REACT_APP_TMDB_API_KEY=eyJhbGciOiJIUsdvsa4.eyJhdWQiOiI1ODA0MjM5OWMsdfabvsInN1YiI6IjY1MDQ2MDc0ZGI0ZWQ2MTAzNjQwYWMzNSIsIasfvacmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5igOnTktDvXLZDPKIkIsdvsadvafv
+REACT_APP_TMDB_API_KEY=eyJhbGciOiJIUsdvsa4.eyJhdWQiOiI1ODA0MjM5sacmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5igOnTktDvXLZDPKIkIsdvsadvafv
 ```
 
-To run the server execute
+5. Create a firebase project for web and enable Email/Password Authentication.
+6. Inside utils folder -> edit the firebase.config file with your firebase config and also add `export const auth = getAuth();` in the file.
 
-```
-npm start
-```
+7. To run the server execute `npm start`
+
+---
 
 ## Project Idea Overview
 
-- Login/Sign Up
+- Login/Sign Up [Firebase User Authentication]
 
   - Sign In /Sign up Form
-  - redirect to Browse Page
+  - Redirect to Browse Page
 
 - Browse Page (after authentication)
 
@@ -44,7 +83,9 @@ npm start
   - Search Bar
   - Movie Suggestions
 
-## NetflixGPT Project Features and todos
+---
+
+## NetflixGPT Project Flow and Completed Task
 
 - Create React App.
 - Configured TailwindCSS.
@@ -89,7 +130,8 @@ npm start
 - fetched gptMoviesSuggestions from TMDB
 - created gptSlice added data
 - Resused Movie List component to make movie suggestion container
-- Memoization
+- Memoization - Memoization is used to optimize the performance of functions by caching the results of expensive function calls and reusing those results when the same inputs occur again.
 - Added .env file
 - Adding .env file to gitignore
 - Made our Site Responsive.
+- FIX: rectified the GptSearchPage data layer and clear the GptSearchPage when you click the GPT search button
