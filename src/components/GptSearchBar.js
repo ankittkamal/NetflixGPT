@@ -30,7 +30,7 @@ const GptSearchBar = () => {
     const gptQuery =
       "Act as a Movie Recommendation system and suggest some movies for the query : " +
       searchText.current.value +
-      ". only give me names of 4 movies, comma seperated like the example result given ahead. Example Result: Gadar, Sholay, Koi Mil Gaya.";
+      ". only give me names of 10 movies, comma seperated like the example result given ahead. Example Result: Gadar, Sholay, Koi Mil Gaya.";
 
     const gptResults = await openai.chat.completions.create({
       messages: [{ role: "user", content: gptQuery }],

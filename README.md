@@ -1,4 +1,27 @@
-#Netflix GPT
+#### NetflixGPT
+
+### Setup the project
+
+Go inside the folder path and execute the following command:
+
+```
+npm install
+```
+
+In the root directory create a `.env `file and add the TMDB and OPENAI KEY into it.
+ex:
+
+```
+    REACT_APP_OPENAI_KEY=sk-asdKIaR234w6sdf6qs3sdffdfsasd234wdfEaafq3re234casd
+
+    REACT_APP_TMDB_API_KEY=eyJhbGciOiJIUsdvsa4.eyJhdWQiOiI1ODA0MjM5OWMsdfabvsInN1YiI6IjY1MDQ2MDc0ZGI0ZWQ2MTAzNjQwYWMzNSIsIasfvacmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5igOnTktDvXLZDPKIkIsdvsadvafv
+```
+
+To run the server execute
+
+```
+npm run dev
+```
 
 - Create React App.
 - Configured TailwindCSS.
@@ -35,9 +58,17 @@
 - TMDB Image CDN URL
 - Made the Browsre page amazing with Tailwind CSS
 - usePopularMovies Custom hook
+- Get Open AI Api Key
+- (BONUS) Multi-language Feature in our App
 - GPT Search Page
 - GPT Search Bar
-- (BONUS) Multi-language Feature in our App
+- Gpt Search API Call
+- fetched gptMoviesSuggestions from TMDB
+- created gptSlice added data
+- Resused Movie List component to make movie suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
 
 # Features
 
