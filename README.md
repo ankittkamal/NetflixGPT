@@ -57,7 +57,7 @@ REACT_APP_TMDB_API_KEY=eyJhbGciOiJIUsdvsa4.eyJhdWQiOiI1ODA0MjM5sacmVhZCJdLCJ2ZXJ
 ```
 
 5. Create a firebase project for web and enable Email/Password Authentication.
-6. Inside utils folder -> edit the firebase.config file with your firebase config and also add `export const auth = getAuth();` in the file.
+6. Inside utils folder -> edit the firebase.js file with your firebase config and also add `export const auth = getAuth();` in the file.
 
 7. To run the server execute `npm start`
 
