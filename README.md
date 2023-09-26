@@ -21,23 +21,13 @@ Netflix Clone Project with integrating OpenAI GPT search functionality for uniqu
 
 - Sign Up / Sign In Page.
 
-  ![](screenshot/SignInPage.png)
-
 - Browse Page with GPT Search button, sign out functionality, video trailer streaming on background and movies section.
-
-  ![](screenshot/BrowsePage.png)
 
 - Browse Page with TMDB Movie Result Section
 
-  ![](screenshot/BrowsePageResult.png)
-
 - GPT Search Page with Multi-language Feature in Search.
 
-  ![](screenshot/GPTsearchPage.png)
-
 - Movie Result from GPT search functionality.
-
-  ![](screenshot/GPTsearchMovieResults.png)
 
 ---
 
