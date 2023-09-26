@@ -1,5 +1,5 @@
 
-Netflix Clone Project with integrating OpenAI GPT search functionality for unique movie Recommendations.
+### Netflix Clone Project with integrating OpenAI GPT search functionality for unique movie Recommendations.
 
 ---
 
