@@ -1,4 +1,3 @@
-<img width="1438" alt="BrowsePage" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/6c3aa2a1-2a71-4424-80f4-299b4c937979"><img width="1438" alt="BrowsePage" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/ccc67c04-9b2e-4a46-a378-6d85b9163a48"># NetflixGPT
 
 Netflix Clone Project with integrating OpenAI GPT search functionality for unique movie Recommendations.
 
