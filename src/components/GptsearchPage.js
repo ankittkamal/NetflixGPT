@@ -6,9 +6,9 @@ import { BG_URL } from "../utils/constants";
 const GptsearchPage = () => {
   return (
     <>
-      <div className="fixed -z-10">
+      <div className="fixed -z-10 ">
         <img
-          className="object-cover h-screen md:h-auto "
+          className="object-cover h-screen md:h-screen "
           src={BG_URL}
           alt="background screen"
         />
