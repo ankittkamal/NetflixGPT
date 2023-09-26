@@ -1,7 +1,6 @@
 
 # Netflix Clone Project with integrating OpenAI GPT search functionality for unique movie Recommendations.
 
----
 
 ## Technologies Used
 
@@ -14,7 +13,7 @@
 - User Authentication: `Firebase`
 - API used : `The Movie Database[TMDB]` `OpenAI platform GPT API`
 
----
+
 
 ## Screenshot
 
