@@ -12,7 +12,7 @@ const VideoTitle = ({ title, overview }) => {
   }
 
   const newOverview = getFirst35Words(overview) + "..";
-  console.log(newOverview);
+  //  console.log(newOverview);
 
   return (
     <div
