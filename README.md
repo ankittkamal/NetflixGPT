@@ -1,6 +1,8 @@
+# NetflixGPT
 
-# Netflix Clone Project with integrating OpenAI GPT search functionality for unique movie Recommendations.
+- Netflix Clone Project with integrating OpenAI GPT search functionality for unique movie Recommendations.
 
+### Deployment on vercel: https://netflixgpt-ff483.web.app/browse
 
 ## Technologies Used
 
@@ -13,20 +15,17 @@
 - User Authentication: `Firebase`
 - API used : `The Movie Database[TMDB]` `OpenAI platform GPT API`
 
-
-
 ## Screenshot
 
 - Sign Up / Sign In Page.
-<img width="1440" alt="signUpPage" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/e0d9b499-dfae-4a32-bb76-86a5573d456b">
-<img width="1440" alt="signInPage" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/df2c428d-b739-480a-acc9-c6f5af9b5599">
+  <img width="1440" alt="signUpPage" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/e0d9b499-dfae-4a32-bb76-86a5573d456b">
+  <img width="1440" alt="signInPage" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/df2c428d-b739-480a-acc9-c6f5af9b5599">
 
 - Browse Page with GPT Search button, sign out functionality, video trailer streaming on background and movies section.
   <img width="1438" alt="BrowsePage" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/f3c50588-4e3a-48d4-947b-138b5f2a12c8">
 
 - Browse Page with TMDB Movie Result Section
   <img width="1440" alt="BrowsePageMovieSection" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/9fda6448-baa3-45c3-8410-cb88bae51833">
-
 
 - GPT Search Page with Multi-language Feature in Search.
   <img width="1440" alt="GptSearchPage" src="https://github.com/ankittkamal/NetflixGPT/assets/119441544/339e281e-3efd-4cf0-9457-67507b1befa6">
@@ -39,7 +38,7 @@
 ## Setup the project
 
 1. Fork the project
-2. Clone project using `git clone https://github.com/<YOUR-USERNAME>/NetflixGPT.git`
+2. Clone project using `git clone + projectURL`
 3. Install dependencies `npm install`
 4. In the root directory create a `.env` file and add the TMDB API KEY and OPENAI API KEY into it.
 
